@@ -6,5 +6,5 @@ In het het bestand  [index.html](index.html) houd je een overzicht bij van wat j
 
 Plaats in deze readme een link naar het index bestand op je ma-cloud site.  
 **Link naar de site:**
-http://damian.wtf
+http://30921.hosts1.ma-cloud.nl/JavaScript-Achievements/index.html
 
