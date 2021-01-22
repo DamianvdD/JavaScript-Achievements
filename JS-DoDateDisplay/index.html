@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoDateDisplay</title>
+</head>
+<body>
+    <script>
+        function toonDatum(){
+    var date = new Date();
+    var day = date.getDate();
+    var dagveld = document.getElementById("Dag");
+    console.log(date.getDate());
+    dagveld.innerHTML = "Het is vandaag de " + day + "e";
+    var date = new Date();
+    var month = date.getMonth();
+    var maandveld = document.getElementById("Maand");
+    console.log(date.getMonth());
+    maandveld.innerHTML = "De maand: " + month;
+    var date = new Date();
+    var year = date.getFullYear();
+    var jaarveld = document.getElementById("Jaar");
+    console.log(date.getFullYear());
+    jaarveld.innerHTML = "Het is: " + year;
+}
+
+    window.addEventListener('DOMContentLoaded', toonDatum);
+    </script>
+    <div id="Dag">De dag van deze week:</div>
+    <div id="Maand">De maand:</div>
+    <div id="Jaar">Het is:</div>
+</body>
+</html>
